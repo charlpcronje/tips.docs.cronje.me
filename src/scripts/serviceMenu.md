@@ -12,7 +12,7 @@ service-menu or sm
 
 Something that looks like this or something close to this will be displayed
 
-![Service Menu](../bash/serviceMenu.png)
+![Service Menu](img/serviceMenu.png)
 
 ## Update 2022-02-02
 
