@@ -1,0 +1,15 @@
+{
+    "name": "DEVSERV IDE", 
+    "version": "0.1",
+    "manifest_version": 3,
+    "description":"AWS's Cloud 9 IDE in self hosted",
+    "app": {
+        "urls": ["https://c9.devserv.me/ide.html"],
+        "launch": {
+            "web_url": "https://c9.devserv.me/ide.html"
+        }
+    },
+    "icons": {
+        "128": "cloud9.png"
+    }
+}
