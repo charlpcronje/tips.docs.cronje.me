@@ -88,7 +88,7 @@ Although the name of this mode is ASCII, which is a 7 bit standard, the actual m
 ### iso	
 
 - Characters are converted between a DOS character set (code page) and ISO character set ISO-8859-1 (Latin-1) on Unix. DOS characters without ISO-8859-1 equivalent, for which conversion is not possible, are converted to a dot. The same counts for ISO-8859-1 characters without DOS counterpart.
-- When only option "-iso" is used dos2unix will try to determine the active code page. When this is not possible dos2unix will use default code page CP437, which is mainly used in the USA. To force a specific code page use options "-437" (US), "-850" (Western European), "-860" (Portuguese), "-863" (French Canadian), or "-865" (Nordic). Windows code page CP1252 (Western European) is also supported with option "-1252". For other code pages use dos2unix in combination with iconv. iconv can convert between a long list of character encodings.
+- When only option "-iso" is used dos2unix will try to determine the active code page. When this is not possible dos2unix will use default code page CP437, which is mainly used in the USA. To force a specific code page use options "-437" (US), "-850" (Western European), "-860" (Portuguese), "-863" (French Canadian), or "-865" (Nordic). Windows code page CP1252 (Western European) is also supported with option "-1252". For other code pages use dos2unix in combination with 
 - Never use ISO converion on Unicode text files. It will corrupt UTF-8 encoded files.
 
 ## Some examples:
@@ -113,7 +113,7 @@ dos2unix -1252 -n in.txt out.txt
 Convert from Windows CP1252 to Unix UTF-8 (Unicode):
 
 ```sh
-iconv -f CP1252 -t UTF-8 in.txt | dos2unix > out.txt
+
 ```
 
 Convert from Unix Latin-1 to DOS default code page:
@@ -137,7 +137,7 @@ unix2dos -1252 -n in.txt out.txt
 Convert from Unix UTF-8 (Unicode) to Windows CP1252:
 
 ```sh
-unix2dos < in.txt | iconv -f UTF-8 -t CP1252 > out.txt
+unix2dos < in.txt | 
 ```
 
 See also http://czyborra.com/charsets/codepages.html and http://czyborra.com/charsets/iso8859.html.
@@ -167,7 +167,7 @@ Unicode text files can have DOS, Unix or Mac line breaks, like regular text file
 - On Windows, Unicode text files often have a Byte Order Mark (BOM), because many Windows programs (including Notepad) add BOMs by default. See also https://en.wikipedia.org/wiki/Byte_order_mark.
 - On Unix, Unicode files often don't have a BOM. It is assumed that text files are encoded in the locale character encoding.
 - dos2unix can only detect if a file is in UTF-16 format if the file has a BOM. When an UTF-16 file doesn't have a BOM, dos2unix sees the file as a binary file.
-- Use dos2unix in combination with iconv to convert an UTF-16 file without BOM.
+- Use dos2unix in combination with 
 - Dos2unix never writes a BOM in the output file, unless you use option "-m".
 - Unix2dos writes a BOM in the output file when the input file has a BOM, or when option "-m" is used.
 
@@ -182,7 +182,7 @@ dos2unix -n in.txt out.txt
 Convert from Windows UTF-16 (without BOM) to Unix UTF-8:
 
 ```sh
-iconv -f UTF-16 -t UTF-8 in.txt | dos2unix > out.txt
+
 ```
 
 Convert from Unix UTF-8 to Windows UTF-8 with BOM:
@@ -196,7 +196,7 @@ Convert from Unix UTF-8 to Windows UTF-16:
 ```
 
 ```sh
-unix2dos < in.txt | iconv -f UTF-8 -t UTF-16 > out.txt
+unix2dos < in.txt | 
 ```
 
 #### Recursive conversion

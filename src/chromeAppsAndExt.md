@@ -16,7 +16,7 @@
             "web_url": "https://c9.devserv.me/ide.html"
         }
     },
-    "icons": {
+    "
         "128": "cloud9.png"
     }
 }
