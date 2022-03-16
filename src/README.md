@@ -33,6 +33,10 @@
 - [Python Set Version](scripts/pythonSetVersion.md)
 - [Foam Brain Starter](scripts/foamStarter.md)
  
+### aliases
+
+- [dutree Space Analyser](dutree.md)
+
 ### General Tips
 
 - [X11 Forwarding](x11forwarding.md)
