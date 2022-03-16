@@ -5,6 +5,8 @@
                                                       
 ```
 
+[TecMint Linux Tricks](https://www.tecmint.com/tag/linux-tricks/)
+
 - [Tech Stack Trap](trap.md)
 
 ### CentOS
@@ -36,6 +38,7 @@
 - [X11 Forwarding](x11forwarding.md)
 - [General Linux Tips](linuxTips.md)
 - [Convert DOS file to UNIX format](dos2unix.md)
+- [Handy Linux Commands](handyCommands.md)
 
 ### Version Control
 
