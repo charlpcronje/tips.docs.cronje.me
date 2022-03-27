@@ -1,1 +1,1 @@
-retype build --host setup.docs.devserv.me
+retype build --host tips.docs.devserv.me
