@@ -33,7 +33,7 @@
 - [Python Set Version](scripts/pythonSetVersion.md)
 - [Foam Brain Starter](scripts/foamStarter.md)
  
-### aliases
+### Aliases
 
 - [dutree Space Analyser](dutree.md)
 
