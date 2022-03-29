@@ -51,8 +51,20 @@ If X11Forwarding is not specified, the default is no on the Debian machines I ha
 ssh -X user@server-id
 
 # Set environment variable for display
-export DISPLAY="127.0.0.:10"
+export DISPLAY="localhost:0.0"
 firefox
 ```
 
 It might give you some errors the first time, but then just close the process and try again, a `Linux` looking windows should pop up out of nowhere... You are now running a Local Browser on the `Centos 8 Server` but viewing the `window` in `windows`, thanks to `X11 Forwarding`
+
+If firefox gives you driver problems, try installing google-chrome
+
+```sh
+yum install google-chrome
+```
+
+And execute the following command to run chrome with min settings to open even if there are some issues with the drivers
+
+```sh
+google-chrome --disable-gpu --disable-software-rasterizer --no-sandbox
+```

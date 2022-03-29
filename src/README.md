@@ -1,3 +1,16 @@
+---
+title: Tips and Tricks | DEVserv.ME
+label: Tips and Tricks
+order: 100
+authors:
+  - name: Charl Cronje
+    email: charl@devserv.me
+    link: https://charl-cv.devserv.me
+    avatar: https://assets.devserv.me/avatars/darker.jpg
+tags: [open source,dev,software,contribute,js,php,firebase,mysql,oracle,log]
+---
+
+
 ```sh
 .___.._..__  __.   .___..__ ._. __ .  . __.   .  ..___
   |   | [__)(__      |  [__) | /  `|_/ (__    |\/|[__ 
@@ -15,6 +28,10 @@
 - [Clear up Space in CentOS 6,7,8](clearSpace.md)
 - [Install RPM Packages](installRps.md)
 - [Rescue CentOS 7](rescueCentos.md)
+
+### Add Cloud Storage for backups
+
+- [Mount OneDrive to Server](mountOneDrive.md)
 
 ### Bash Scripting
 
@@ -35,7 +52,7 @@
  
 ### Aliases
 
-- [dutree Space Analyser](dutree.md)
+- [Dutree Space Analyzer](dutree.md)
 
 ### General Tips
 
