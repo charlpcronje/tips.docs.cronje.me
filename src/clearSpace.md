@@ -35,7 +35,7 @@ yum clean all
 rm -rf /var/cache/yum
 ```
 
-Also, when you accidentally run yum through a regular user (forgot sudo), yum will create user-cache. So let’s delete that too:
+Also, when you accidentally run yum through a regular user (forgot sudo), yum will create user-cache. So lets delete that too:
 
 ```sh
 rm -rf /var/tmp/yum-*
@@ -66,7 +66,7 @@ rm -rf /home/*/.wp-cli/cache/*
 ## 5. Remove old kernels
 
 Before removing old kernels, you might want to simply reboot first in order to boot up from the latest kernel.
-That’s because you can’t remove an old kernel if you’re booted into it 🙂
+That's because you can't remove an old kernel if you're booted into it 🙂
 
 The following commands will keep just 2 latest kernels installed:
 
@@ -75,7 +75,7 @@ The following commands will keep just 2 latest kernels installed:
 (( $(rpm -E %{rhel}) <= 7 )) && package-cleanup --oldkernels --count=2
 ```
 
-> Note that with some VPS providers (Linode for example), servers use provider’s built kernels by default and not the ones on the server itself. So it makes little sense to keep more than 1 old kernel on the system. So:
+> Note that with some VPS providers (Linode for example), servers use provider's built kernels by default and not the ones on the server itself. So it makes little sense to keep more than 1 old kernel on the system. So:
 
 ```sh
 (( $(rpm -E %{rhel}) >= 8 )) && dnf remove $(dnf repoquery --installonly --latest-limit=-1 -q)
@@ -123,7 +123,7 @@ rm -rf /var/cache/mock/* /var/lib/mock/*
 
 ## 11. Clear generic program caches
 
-Multiple programs have a convention of storing their caches under users’ home .cache subdirectory.
+Multiple programs have a convention of storing their caches under users' home .cache subdirectory.
 Example: `/home/username/.cache/progname`.
 
 You may want to clear up those, but not the subdirectories of programs. Like so:
