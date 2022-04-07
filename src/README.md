@@ -64,6 +64,7 @@ tags: [open source,dev,software,contribute,js,php,firebase,mysql,oracle,log]
 ### Version Control
 
 - [GIT](git.md)
+- [GiT-Secrets](gitSecrets.md)
 
 ## Containers
 
