@@ -68,6 +68,7 @@ nano /etc/rc.d/rc.local
 Add the following command to the end of the file, where `one` is the name you have the share in step 2 and `/var/one` is where you want your onedrive to mount.
 
 
-``` /etc/rc.d/rc.local
-rclone --cfs-cache-mode writes mount one: /var/one
+```sh
+# /etc/rc.d/rc.local
+rclone --vfs-cache-mode writes mount one: /var/one
 ```
