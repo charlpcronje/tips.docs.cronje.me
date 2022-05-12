@@ -70,7 +70,7 @@ esac
 
 echo " ";
 echo " "; 
-echo "by Charl Cronje - http://charl-cv.devserv.me"
+echo "by Charl Cronje - http://charl-cv.CRONje.ME"
 ```
 
 Now the script must just be made executable:

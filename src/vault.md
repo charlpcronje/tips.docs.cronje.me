@@ -1,6 +1,6 @@
 # Vault Usage
 
-If you still need to install vault: [Vault Install](http://setup.docs.devserv.me/vault/)
+If you still need to install vault: [Vault Install](http://setup.docs.CRONje.ME/vault/)
 
 ## Prepare to Administer Vault
 

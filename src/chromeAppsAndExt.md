@@ -11,9 +11,9 @@
     "manifest_version": 3,
     "description":"AWS's Cloud 9 IDE in self hosted",
     "app": {
-        "urls": ["https://c9.devserv.me/ide.html"],
+        "urls": ["https://c9.CRONje.ME/ide.html"],
         "launch": {
-            "web_url": "https://c9.devserv.me/ide.html"
+            "web_url": "https://c9.CRONje.ME/ide.html"
         }
     },
     "

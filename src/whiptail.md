@@ -18,11 +18,11 @@ chmod 777 demo.sh
 
 ## Code Server for Creating Scripts
 
-VS Code-server that is running on port `:4444` on `devserv.me` is perfect for creating these scripts, you can create the files and then run them in the built in terminal to test them, if you're not using code-server yet, then you should really stop not using code-server! Here is the [install instructions for code-server](http://setup.docs.devserv.me/codeserver/)
+VS Code-server that is running on port `:4444` on `CRONje.ME` is perfect for creating these scripts, you can create the files and then run them in the built in terminal to test them, if you're not using code-server yet, then you should really stop not using code-server! Here is the [install instructions for code-server](http://setup.docs.CRONje.ME/codeserver/)
 Then also have a look at
 
-- [Code-Server Extensions](http://setup.docs.devserv.me/codeserverextensions/)
-- [Code-Server as Service](http://setup.docs.devserv.me/codeserverservice/)
+- [Code-Server Extensions](http://setup.docs.CRONje.ME/codeserverextensions/)
+- [Code-Server as Service](http://setup.docs.CRONje.ME/codeserverservice/)
 
 - I'm creating these scripts in `/srv/scripts`.
 - Run it by using `./` before the filename if the location is not along the PATH.

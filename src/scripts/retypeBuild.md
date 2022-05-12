@@ -1,6 +1,6 @@
 # Retype Build
 
-Retype is a static site generator for markdown docs. [More info](https://setup-docs.devserv.me/retype)
+Retype is a static site generator for markdown docs. [More info](https://setup.docs.CRONje.ME/retype)
 
 For my builds I use this Yaml template:
 
@@ -10,17 +10,17 @@ For my builds I use this Yaml template:
 # Retype.yml
 input: src
 output: public
-url: https://tools-docs.devserv.me
+url: https://tools.docs.CRONje.ME
 branding:
-  title: DEVserv.ME Tools
+  title: CRONje.ME Tools
   label: Docs
 links:
-- text: DEVserv.ME Docs
-  link: https://docs.devserv.me
+- text: CRONje.ME Docs
+  link: https://docs.CRONje.ME
 - text: Charl Cronje
-  link: https://charl-cv.devserv.me
-- text: DEVserv.ME Dashboard
-  link: https://oz.devserv.me
+  link: https://charl-cv.CRONje.ME
+- text: CRONje.ME Dashboard
+  link: https://oz.CRONje.ME
 footer:
   copyright: "webAlly &copy; Copyright {{ year }}. All rights reserved."
 ```
