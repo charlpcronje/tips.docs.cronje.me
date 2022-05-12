@@ -49,7 +49,7 @@ else
 fi
 echo " ";
 echo " "; 
-echo "by Charl Cronje - http://charl-cv.CRONje.ME"
+echo "by Charl Cronje - http://cv.CRONje.ME"
 ```
 
 - The Script accepts one paramarter and the is the full path of the directory you want to `set4web` plus all it's sub-directories and files

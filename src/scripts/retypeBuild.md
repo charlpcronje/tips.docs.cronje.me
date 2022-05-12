@@ -18,7 +18,7 @@ links:
 - text: CRONje.ME Docs
   link: https://docs.CRONje.ME
 - text: Charl Cronje
-  link: https://charl-cv.CRONje.ME
+  link: https://blog.cronje.me
 - text: CRONje.ME Dashboard
   link: https://oz.CRONje.ME
 footer:
