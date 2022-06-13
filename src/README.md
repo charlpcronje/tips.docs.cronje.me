@@ -22,6 +22,10 @@ tags: [open source,dev,software,contribute,js,php,firebase,mysql,oracle,log]
 
 - [Tech Stack Trap](trap.md)
 
+### Android
+
+- [Not well known USSD Codes](ussdCodes.md)
+
 ### CentOS
 
 - [Yum Download Only](yumDownloadOny.md)
