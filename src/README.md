@@ -76,6 +76,7 @@ tags: [open source,dev,software,contribute,js,php,firebase,mysql,oracle,log]
 ### Node Tips
 
 - [Run Node.js App as a Service](nodeAppAsService.md)
+- [Easy run App Forever](forever.md)
 
 ### Chrome Extensions
 
