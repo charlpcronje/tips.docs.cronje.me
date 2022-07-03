@@ -1,4 +1,7 @@
-# How to run a `node.js` app as a background service ?
+---
+title: How to run a NODE.JS app as a background service?
+---
+<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
 
 `Node.js` is a platform built on Chrome’s JavaScript v8 engine, which is used for easily building fast and scalable network applications, javascript uses an event-driven, non-blocking I/O model that makes it lightweight and efficient which is perfect for data-intensive real-time applications that run across distributed devices and to make use of the tools (or packages) in Node. js, we need to be able to install in our machine and manage them in a useful way.
 

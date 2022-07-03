@@ -1,4 +1,7 @@
-## 30 Useful Linux Commands for System Administrators
+---
+title: 30 Useful Linux Commands for System Administrators
+---
+<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
 
 In this article we are going to review some of the useful and frequently used Linux or Unix commands for Linux System Administrators that are used in their daily life.
 

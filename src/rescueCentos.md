@@ -1,4 +1,7 @@
-# Rescue CentOS 7 System
+---
+title: Rescue CentOS 7 System
+---
+<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
 
 - I was busy working on my server in VS Code-Sever when a new SSH connection just would not work, then system after system started failing. At first I thought I was hacked, but when I checked the logs there were no sign of any attempts or any other logins.
 - I come from a windows background so I thought restarting would probably fix the problem, but it did not. When I restarted I never got to make a new SSH connection. So I logged into my management console and opened the KVM Console.
