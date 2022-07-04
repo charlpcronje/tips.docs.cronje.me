@@ -465,3 +465,35 @@ mkdir directoryname
 ```
 
 This is a handy day-to-day used basic commands in Linux / Unix-like operating system. Kindly share through our comment box if we missed out.
+
+## sed `for text read and write to files`
+
+It often happens that I want to add text to a file, for instace I want to have some page stats on my blog. At the moment I am using a static site generator. The one I'm using can't auto add a `script` tag to each page, so I have to go add it manually to each page. This
+
+It the moment I have some `yml` at the top of each page that  looks like this:
+
+```md
+---
+title: Page title goes here
+```
+
+I want to update that so that is looks like:
+
+```md
+---
+title: Page title goes here
+---
+<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>
+```
+
+So, to do that I will use the `find` command with `sed` command:
+
+This will find all files with extensions `.md` in the current `folder` and `sub-folders`. Then it will find the line containing `title\: ` (have to add `\` before `:` to escape the `:` that has some function) Then it will append a new line with `/&` Then I will add  `---` and add another line with `/&` to close the `yml` part of the document. Then finally add `<script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script>` and add another line with `/&`
+
+
+```sh
+find ./*.md -type f -exec sed -i -e 's/title\:/& ---/& <script type="text/javascript">(function(w,s){var e=document.createElement("script");e.type="text/javascript";e.async=true;e.src="https://cdn.pagesense.io/js/webally/f2527eebee974243853bcd47b32631f4.js";var x=document.getElementsByTagName("script")[0];x.parentNode.insertBefore(e,x);})(window,"script");</script> /&
+```
+
+That did work :)
+
