@@ -35,6 +35,7 @@ tags: [open source,dev,software,contribute,js,php,firebase,mysql,oracle,log]
 ### Add Cloud Storage for backups
 
 - [Mount OneDrive to Server](mountOneDrive.md)
+- [One OneDrive as web space for web hosting](oneDriveWebSpace.md)
 
 ### Bash Scripting
 
