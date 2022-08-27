@@ -4,6 +4,7 @@ url: https://tip.docs.cronje.me
 branding:
   title: CRONje.ME Tips
   label: Docs
+favicon: ./favicon.png
 links:
 - text: Dashboard
   link: https://nav.cronje.me
