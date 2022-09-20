@@ -1,9 +1,9 @@
 input: src
 output: public
-url: https://tip.docs.cronje.me
+url: http://kali.docs.cronje.me
 branding:
-  title: CRONje.ME Tips
-  label: Docs
+  title: CRONJje.ME | General Tips and Tricks
+  label: SERVER
 favicon: ./favicon.png
 links:
 - text: Dashboard
@@ -22,3 +22,4 @@ links:
   link: https://www.upwork.com/freelancers/~01ccb1439024ec9c50
 footer:
   copyright: "webAlly &copy; Copyright {{ year }}. All rights reserved."
+
