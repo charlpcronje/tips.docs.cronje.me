@@ -86,3 +86,7 @@ tags: [open source,dev,software,contribute,js,php,firebase,mysql,oracle,log]
 ### Online Services
 
 - [Sign Document Online](signOnline.md)
+
+### Website Scraping / Download
+
+- [WGET to download entire website](wgetEntireSite.md)
