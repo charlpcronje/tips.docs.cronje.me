@@ -1,0 +1,267 @@
+{
+  "version": "3.0.3",
+  "created": "2023-06-23T06:17:44Z",
+  "files": [
+    {
+      "path": ".nojekyll"
+    },
+    {
+      "path": "404.html"
+    },
+    {
+      "path": "alias/dutree/index.html"
+    },
+    {
+      "path": "bash/index.html"
+    },
+    {
+      "path": "chomeappsandext/cloud9.png"
+    },
+    {
+      "path": "chromeappsandext/index.html"
+    },
+    {
+      "path": "clearspace/index.html"
+    },
+    {
+      "path": "CNAME"
+    },
+    {
+      "path": "dockernetworks/index.html"
+    },
+    {
+      "path": "dos2unix/index.html"
+    },
+    {
+      "path": "dutree/index.html"
+    },
+    {
+      "path": "exitcodes/index.html"
+    },
+    {
+      "path": "favicon.png"
+    },
+    {
+      "path": "forever/index.html"
+    },
+    {
+      "path": "git/index.html"
+    },
+    {
+      "path": "gitsecrets/index.html"
+    },
+    {
+      "path": "handycommands/index.html"
+    },
+    {
+      "path": "index.html"
+    },
+    {
+      "path": "installrps/index.html"
+    },
+    {
+      "path": "linuxtips/index.html"
+    },
+    {
+      "path": "menu/index.html"
+    },
+    {
+      "path": "mountonedrive/index.html"
+    },
+    {
+      "path": "nodeappasservice/index.html"
+    },
+    {
+      "path": "onedrivewebspace/index.html"
+    },
+    {
+      "path": "rclone/rclone0.png"
+    },
+    {
+      "path": "rclone/rclone1.jpg"
+    },
+    {
+      "path": "rclone/rclone10.png"
+    },
+    {
+      "path": "rclone/rclone11.png"
+    },
+    {
+      "path": "rclone/rclone12.png"
+    },
+    {
+      "path": "rclone/rclone13.png"
+    },
+    {
+      "path": "rclone/rclone14.png"
+    },
+    {
+      "path": "rclone/rclone15.png"
+    },
+    {
+      "path": "rclone/rclone16.png"
+    },
+    {
+      "path": "rclone/rclone17.png"
+    },
+    {
+      "path": "rclone/rclone2.png"
+    },
+    {
+      "path": "rclone/rclone3.png"
+    },
+    {
+      "path": "rclone/rclone4.png"
+    },
+    {
+      "path": "rclone/rclone5.png"
+    },
+    {
+      "path": "rclone/rclone6.png"
+    },
+    {
+      "path": "rclone/rclone7.png"
+    },
+    {
+      "path": "rclone/rclone8.png"
+    },
+    {
+      "path": "rclone/rclone9.png"
+    },
+    {
+      "path": "rescue/stopped.png"
+    },
+    {
+      "path": "rescuecentos/index.html"
+    },
+    {
+      "path": "resources/css/retype.css"
+    },
+    {
+      "path": "resources/fonts/Inter-italic-latin-var.woff2"
+    },
+    {
+      "path": "resources/fonts/Inter-roman-latin-var.woff2"
+    },
+    {
+      "path": "resources/js/config.js"
+    },
+    {
+      "path": "resources/js/lunr.js"
+    },
+    {
+      "path": "resources/js/prism.js"
+    },
+    {
+      "path": "resources/js/retype.js"
+    },
+    {
+      "path": "resources/js/search.json"
+    },
+    {
+      "path": "resources/lunr.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/mermaid.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/prism.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/retype.js.LICENSE.txt"
+    },
+    {
+      "path": "resources/retype.LICENSE.txt"
+    },
+    {
+      "path": "robots.txt"
+    },
+    {
+      "path": "scripts/fixwebpermisions/index.html"
+    },
+    {
+      "path": "scripts/foamstarter/index.html"
+    },
+    {
+      "path": "scripts/globalscripts/index.html"
+    },
+    {
+      "path": "scripts/img/servicemenu.png"
+    },
+    {
+      "path": "scripts/index.html"
+    },
+    {
+      "path": "scripts/pythonsetversion/index.html"
+    },
+    {
+      "path": "scripts/retypebuild/index.html"
+    },
+    {
+      "path": "scripts/servicemenu/index.html"
+    },
+    {
+      "path": "scripts/set4web/index.html"
+    },
+    {
+      "path": "signonline/index.html"
+    },
+    {
+      "path": "sitemap.xml.gz"
+    },
+    {
+      "path": "tags/contribute/index.html"
+    },
+    {
+      "path": "tags/dev/index.html"
+    },
+    {
+      "path": "tags/firebase/index.html"
+    },
+    {
+      "path": "tags/index.html"
+    },
+    {
+      "path": "tags/js/index.html"
+    },
+    {
+      "path": "tags/log/index.html"
+    },
+    {
+      "path": "tags/mysql/index.html"
+    },
+    {
+      "path": "tags/open-source/index.html"
+    },
+    {
+      "path": "tags/oracle/index.html"
+    },
+    {
+      "path": "tags/php/index.html"
+    },
+    {
+      "path": "tags/software/index.html"
+    },
+    {
+      "path": "trap/index.html"
+    },
+    {
+      "path": "ussdcodes/index.html"
+    },
+    {
+      "path": "vault/index.html"
+    },
+    {
+      "path": "wgetentiresite/index.html"
+    },
+    {
+      "path": "whiptail/index.html"
+    },
+    {
+      "path": "x11forwarding/index.html"
+    },
+    {
+      "path": "yumdownloadony/index.html"
+    }
+  ]
+}
